@@ -26,7 +26,7 @@ SQL (SQLite) · Python (pandas, matplotlib, seaborn) · Power BI
 
 ## Dashboard Preview
 
-![Dashboard](VendorriskIntelligencedb.jpg)
+![Dashboard](Vendor%20risk%20Intelligence%20db.jpg)
 
 ## Python Analysis
 
