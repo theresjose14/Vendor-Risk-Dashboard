@@ -24,13 +24,27 @@ SQL (SQLite) · Python (pandas, matplotlib, seaborn) · Power BI
 - 75 contracts are due to expire within the next 90 days.
 - Compliance gaps are widespread rather than isolated: 254 vendors (50.8%) are not ISO 27001 certified, 270 (54%) are not PCI DSS compliant, and 244 (48.8%) are not GDPR compliant.
 
+## Dashboard Preview
+
+![Dashboard](Vendor risk Intelligence db.jpg)
+
+## Python Analysis
+
+**Risk score distribution across all vendors**
+![Risk Distribution](chart1_risk_distribution.png)
+
+**Security score vs. risk score — weaker security consistently means higher risk**
+![Security vs Risk](chart2_security_vs_risk.png)
+
+**Correlation between all risk factors**
+![Correlation Heatmap](chart3_correlation_heatmap.png)
+
+**Average risk score by vendor category — confirms risk is evenly spread, not category-driven**
+![Risk by Category](chart4_risk_by_category.png)
+
 ## Repository Contents
 
 - `schema.sql` — database schema
 - `sample_queries.sql` — core SQL queries behind the KPIs
-- `dashboard_overview.png` — Power BI dashboard
+- `Vendor risk Intelligence db.jpg` — Power BI dashboard
 - `chart1_risk_distribution.png`, `chart2_security_vs_risk.png`, `chart3_correlation_heatmap.png`, `chart4_risk_by_category.png` — Python analysis
-
-## Dashboard Preview
-
-![Dashboard](dashboard_overview.png)
